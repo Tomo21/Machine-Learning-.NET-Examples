@@ -40,6 +40,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            },
+            "Microsoft.ML.ImageAnalytics": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            },
+            "Microsoft.ML.TensorFlow.Redist": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            },
+            "Microsoft.ML.Vision": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
