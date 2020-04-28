@@ -340,4 +340,9 @@ ASALocalRun/
 healthchecksdb
 
 # Ignore obj, debug and DNN model files
-obj/
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
